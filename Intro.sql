@@ -4,7 +4,7 @@
  SELECT * FROM bestbuy.products
  WHERE products.Price = 1400;
 -- find all products that cost $11.99 or $13.99
- SELECT * FROM bestby.products
+ SELECT * FROM bestbuy.products
  WHERE products.Price = 11.99 OR 13.99;
 -- find all products that do NOT cost 11.99 - using NOT
  SELECT * FROM bestbuy.products
@@ -17,7 +17,7 @@
  WHERE employees.MiddleInitial IS NULL;
 -- find distinct product prices
  SELECT DISTINCT bestbuy.products.Price 
- FROM bestbuy.product;
+ FROM bestbuy.products;
 -- find all employees whose first name starts with the letter ‘j’
  SELECT * FROM bestbuy.employees 
  WHERE employees.FirstName LIKE 'j%';
